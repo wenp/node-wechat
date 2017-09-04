@@ -1,0 +1,12 @@
+{
+	"apps": [
+		{
+			"name": "wechat1",
+			"script": "service.js",
+			"watch": ["./service.js", "service/**/*", "dist/*", "config/*"],
+			"log_date_format": "YYYY-MM-DD HH:MM Z",
+			"error_file": "./logs/error.log",
+			"out_file": "./logs/output.log"
+		}
+	]
+}

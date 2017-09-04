@@ -1,0 +1,28 @@
+{
+  "wechat": {
+    "appid": "你的 appid",
+    "appsecret": "你的 appsecret",
+    "token": "你的 token",
+    "encodingAESKey": "你的 encodingAEKey"
+  },
+  "host": {
+    "ip": "你的 IP",
+    "port": 80
+  },
+  "apiDomain":"https://api.weixin.qq.com/",
+  "tuling": {
+    "domain": "http://www.tuling123.com/openapi/api",
+    "key": "你的图灵机器人 key"
+  },
+  "apiURL":{
+    "accessTokenApi":"%scgi-bin/token?grant_type=client_credential&appid=%s&secret=%s",
+    "createMenus": "%scgi-bin/menu/create?access_token=%s",
+    "userInfo": "%scgi-bin/user/info?access_token=%s&openid=%s&lang=zh_CN "
+  },
+  "mysql": {
+    "host": "你的 MySQL IP",
+    "user": "你的 MySQL 用户名",
+    "password": "你的 MySQL 密码",
+    "database": "你的 MySQL 表"
+  }
+}

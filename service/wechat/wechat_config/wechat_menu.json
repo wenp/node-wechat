@@ -1,0 +1,39 @@
+{
+  "button": [
+    {
+      "name": "我的家庭",
+      "sub_button": [
+        {
+          "type": "click",
+          "name": "老爸",
+          "key": "杨保玉"
+        },
+        {
+          "type": "click",
+          "name": "老妈",
+          "key": "张振凡"
+        },
+        {
+          "type": "click",
+          "name": "老姐 芳",
+          "key": "杨芳"
+        },
+        {
+          "type": "click",
+          "name": "老姐 欢",
+          "key": "杨欢"
+        },
+        {
+          "type": "click",
+          "name": "老姐 娜",
+          "key": "杨娜"
+        }
+      ]
+    },
+    {
+      "name": "意见与功能",
+      "type": "click",
+      "key": "提意见"
+    }
+  ]
+}

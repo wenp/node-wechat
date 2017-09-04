@@ -1,0 +1,79 @@
+/* You can add global styles to this file, and also import other style files */
+@media only screen and (min-width: 320px) {
+  html {
+    font-size: 17.0666667px !important;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  html {
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  html {
+    font-size: 21.33333333px !important;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  html {
+    font-size: 21px !important;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  html {
+    font-size: 25.6px !important;
+  }
+}
+
+
+@function Rem($current){
+  @return #{$current / 20}rem;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: auto;
+}
+body table {
+  margin: 0 auto;
+  width: Rem(375);
+  overflow: hidden;
+  border-collapse: collapse;
+}
+.title {
+  font-size: 30px;
+}
+.option {
+  width:Rem(375);
+  margin: Rem(20) auto;
+}
+.option select{
+  margin-right: Rem(10);
+  width: Rem(150);
+  height: Rem(40);
+}
+body table td, body table th{
+  border: 1px solid green;
+  text-align: center;
+}
+body table td:nth-child(1), body table th:nth-child(1){
+  width: Rem(90);
+}
+body table td:nth-child(2), body table th:nth-child(2){
+  width: Rem(90);
+}
+body table td img {
+  display: inline-block;
+  vertical-align: middle;
+  width: Rem(50);
+  height: Rem(50);
+}

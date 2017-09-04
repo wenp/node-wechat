@@ -1,0 +1,18 @@
+{
+  "index": {
+    "title": "Welcome to devil bill day",
+    "chooseLeng": "Choose your Language",
+    "Language": {
+      "en": "English",
+      "zh-CN": "Chinese"
+    },
+    "chooseDate": "Choose Date",
+    "info": {
+      "date": "Date",
+      "$": "Dollar",
+      "photo": "Photo",
+      "details": "details"
+    },
+    "danwei": "$"
+  }
+}

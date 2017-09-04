@@ -1,0 +1,18 @@
+{
+  "index": {
+    "title": "欢迎来到魔鬼账单日",
+    "chooseLeng": "选择语言",
+    "Language": {
+      "en": "英文",
+      "zh-CN": "中文"
+    },
+    "chooseDate": "选择日期",
+    "info": {
+      "date": "时间",
+      "$": "支出",
+      "photo": "照片",
+      "details": "详情"
+    },
+    "danwei": "￥"
+  }
+}

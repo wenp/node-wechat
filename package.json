@@ -1,0 +1,24 @@
+{
+  "name": "wechat1",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --open",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "express": "^4.15.3",
+    "http-proxy": "^1.16.2",
+    "mysql": "^2.14.0",
+    "node-xlsx": "^0.10.0",
+    "request": "^2.81.0",
+    "require-directory": "^2.1.1",
+    "wechat": "^2.1.0"
+  },
+  "devDependencies": {}
+}
